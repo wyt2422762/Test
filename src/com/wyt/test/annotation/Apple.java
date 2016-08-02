@@ -15,11 +15,9 @@ import com.wyt.test.annotation.FruitColor.Color;
 public class Apple {
 
 	@FruitName("苹果")
-	// 名称注解
 	private String name;
 
 	@FruitColor(fruitColor = Color.RED)
-	// 颜色注解
 	private String color;
 
 	@FruitOpt("生吃")
